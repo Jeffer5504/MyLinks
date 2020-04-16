@@ -1,0 +1,38 @@
+main{
+    flex: 1;
+    margin: 0 20px;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: 1,1fr;
+    gap: 10px;
+}
+.link-item {
+    width: 400px;
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+    padding: 30px 20px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+li a {
+    color: #168544;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  
+}
